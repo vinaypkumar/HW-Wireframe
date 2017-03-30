@@ -1,0 +1,115 @@
+
+/**
+ * Float Layout Activity
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+	background: #777;
+}
+
+section {
+	
+}
+
+p{
+	font-family: 'Arial';
+	font-size: 18px;
+}
+
+header {
+	font-family: 'Arial';
+	font-size: 18px;
+  padding: 28px;
+  margin: 10px auto;  
+  color: #777;
+  width: 960px;
+  height: 79px;
+  background: #ebebeb;  
+}
+
+#nav {
+  padding: 12px;
+  margin: 10px auto;  
+  color: #777;
+  width: 960px;
+  height: 79px;
+  background: #ebebeb;  
+}
+
+#left {
+  padding: 10px;
+  float: left;
+  margin-left: 280px;
+  margin-top: 10px;  
+  color: #777;
+  width: 495px;
+  height: 287px;
+  background: #ebebeb;  
+}
+
+#aside {	
+  padding: 20px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #777;
+  width: 445px;
+  height: 287px;
+  background: #ebebeb;  
+}
+
+#article {	
+  padding: 1px;     
+  color: #ebebeb;
+  width: 475px;
+  height: 212px;
+  background: #777; 
+   
+}
+
+#hbox {	
+	float: left;
+	margin-left:20px;
+	margin-bottom: 20px;
+  padding: 1px;     
+  color: #777;
+  width: 433px;
+  height: 54px;
+  background: #ebebeb; 
+   
+}
+
+#pbox {	
+	clear: both;
+	margin-left:20px;
+	margin-top:20px;
+  padding: 1px;     
+  color: #777;
+  width: 433px;
+  height: 54px;
+  background: #ebebeb; 
+   
+}
+
+footer {
+  font-family: 'Arial';
+  font-size: 18px;
+  clear: both;
+  padding: 28px;
+  margin: 10px auto;
+  margin-top: 20px auto;  
+  color: #777;
+  width: 960px;
+  height: 79px;
+  background: #ebebeb;  
+}
+
+
+}
+
